@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2019.2">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>test.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NU_INSCRICAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="CO_UF_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="SG_UF_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_IDADE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_SEXO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_COR_RACA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_NACIONALIDADE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_ST_CONCLUSAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_ANO_CONCLUIU" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_ESCOLA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_ENSINO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_TREINEIRO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_DEPENDENCIA_ADM_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_BAIXA_VISAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_CEGUEIRA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_SURDEZ" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_DISLEXIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_DISCALCULIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_SABATISTA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_GESTANTE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="IN_IDOSO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_PRESENCA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_PRESENCA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_PRESENCA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="CO_PROVA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="CO_PROVA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="CO_PROVA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="CO_PROVA_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_LINGUA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="TP_STATUS_REDACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_COMP1" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_COMP2" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_COMP3" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_COMP4" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_COMP5" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="NU_NOTA_REDACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q001" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q002" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q006" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q024" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q025" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q026" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q027" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+            <Field name="Q047" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\test.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="246" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"NU_NOTA_CN","NU_NOTA_CH","NU_NOTA_LC","NU_NOTA_REDACAO"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">False</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="NU_NOTA_CN" selected="True" type="Double" size="8" />
+            <SelectField field="NU_NOTA_CH" selected="True" type="Double" size="8" />
+            <SelectField field="NU_NOTA_LC" selected="True" type="Double" size="8" />
+            <SelectField field="NU_NOTA_REDACAO" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="90" y="366" width="625" height="205" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>REGRESSÃO LINEAR NOS DADOS</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="115" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>,</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>train.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field_1" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_INSCRICAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_ANO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_MUNICIPIO_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NO_MUNICIPIO_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_UF_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="SG_UF_RESIDENCIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_IDADE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_SEXO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_ESTADO_CIVIL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_COR_RACA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_NACIONALIDADE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_MUNICIPIO_NASCIMENTO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NO_MUNICIPIO_NASCIMENTO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_UF_NASCIMENTO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="SG_UF_NASCIMENTO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_ST_CONCLUSAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_ANO_CONCLUIU" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_ESCOLA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_ENSINO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_TREINEIRO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_ESCOLA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_MUNICIPIO_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NO_MUNICIPIO_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_UF_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="SG_UF_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_DEPENDENCIA_ADM_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_LOCALIZACAO_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_SIT_FUNC_ESC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_BAIXA_VISAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_CEGUEIRA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SURDEZ" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DEFICIENCIA_AUDITIVA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SURDO_CEGUEIRA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DEFICIENCIA_FISICA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DEFICIENCIA_MENTAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DEFICIT_ATENCAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DISLEXIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_DISCALCULIA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_AUTISMO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_VISAO_MONOCULAR" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_OUTRA_DEF" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SABATISTA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_GESTANTE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_LACTANTE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_IDOSO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_ESTUDA_CLASSE_HOSPITALAR" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SEM_RECURSO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_BRAILLE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_AMPLIADA_24" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_AMPLIADA_18" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_LEDOR" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_ACESSO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_TRANSCRICAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_LIBRAS" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_LEITURA_LABIAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MESA_CADEIRA_RODAS" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MESA_CADEIRA_SEPARADA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_APOIO_PERNA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_GUIA_INTERPRETE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MACA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_COMPUTADOR" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_CADEIRA_ESPECIAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_CADEIRA_CANHOTO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_CADEIRA_ACOLCHOADA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_PROVA_DEITADO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MOBILIARIO_OBESO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_LAMINA_OVERLAY" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_PROTETOR_AURICULAR" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MEDIDOR_GLICOSE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MAQUINA_BRAILE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SOROBAN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MARCA_PASSO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SONDA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MEDICAMENTOS" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SALA_INDIVIDUAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SALA_ESPECIAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_SALA_ACOMPANHANTE" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MOBILIARIO_ESPECIFICO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_MATERIAL_ESPECIFICO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_NOME_SOCIAL" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="IN_CERTIFICADO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NO_ENTIDADE_CERTIFICACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_UF_ENTIDADE_CERTIFICACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="SG_UF_ENTIDADE_CERTIFICACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_MUNICIPIO_PROVA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NO_MUNICIPIO_PROVA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_UF_PROVA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="SG_UF_PROVA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_PRESENCA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_PRESENCA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_PRESENCA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_PRESENCA_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_PROVA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_PROVA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_PROVA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="CO_PROVA_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_RESPOSTAS_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_RESPOSTAS_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_RESPOSTAS_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_RESPOSTAS_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_LINGUA" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_GABARITO_CN" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_GABARITO_CH" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_GABARITO_LC" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TX_GABARITO_MT" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="TP_STATUS_REDACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_COMP1" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_COMP2" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_COMP3" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_COMP4" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_COMP5" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="NU_NOTA_REDACAO" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q001" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q002" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q003" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q004" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q005" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q006" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q007" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q008" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q009" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q010" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q011" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q012" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q013" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q014" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q015" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q016" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q017" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q018" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q019" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q020" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q021" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q022" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q023" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q024" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q025" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q026" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q027" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q028" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q029" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q030" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q031" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q032" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q033" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q034" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q035" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q036" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q037" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q038" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q039" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q040" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q041" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q042" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q043" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q044" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q045" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q046" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q047" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q048" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q049" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+                <Field name="Q050" size="254" source="File: C:\Users\Jhonatan\Desktop\python-and-data-science\codenation-challange\train.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="343" y="487" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Jhonatan\AppData\Local\Temp\Engine_1180_d4df38c994e54a4e8d5b6cb3fbf873eb_\Engine_12956_ee93b41d6a6c4a1c90999bc7495cfa39_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="Linear_Regression">
+            <Position x="499" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="curPage">Home</Value>
+              <Value name="curTab">advanced</Value>
+              <Value name="standardize_pred">True</Value>
+              <Value name="internal_cv">True</Value>
+              <Value name="display_graphs">True</Value>
+              <Value name="set_seed_internal_cv">True</Value>
+              <Value name="set_seed_external_cv">True</Value>
+              <Value name="lambda_1se">True</Value>
+              <Value name="lambda_min">False</Value>
+              <Value name="Model Name">Regressão_linear_7</Value>
+              <Value name="Y Var">NU_NOTA_MT</Value>
+              <Value name="X Vars">NU_NOTA_CN,NU_NOTA_CH,NU_NOTA_LC,NU_NOTA_MT,NU_NOTA_REDACAO</Value>
+              <Value name="Omit Constant">False</Value>
+              <Value name="Use Weights">False</Value>
+              <Value name="Weight Vec" />
+              <Value name="regularization">False</Value>
+              <Value name="alpha">0.5</Value>
+              <Value name="nfolds">5</Value>
+              <Value name="lambda">lambda_1se</Value>
+              <Value name="seed_internal_cv">1</Value>
+              <Value name="lambda_no_cv">0.5</Value>
+              <Value name="external_cv">False</Value>
+              <Value name="nfolds_external">5</Value>
+              <Value name="numberTrials">3</Value>
+              <Value name="external_seed_value">1</Value>
+              <Value name="graph.resolution">1x</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Regressão_linear_7</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="211" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="NU_NOTA_CN" selected="True" type="Double" size="8" />
+                <SelectField field="NU_NOTA_CH" selected="True" type="Double" size="8" />
+                <SelectField field="NU_NOTA_LC" selected="True" type="Double" size="8" />
+                <SelectField field="NU_NOTA_MT" selected="True" type="Double" size="8" />
+                <SelectField field="NU_NOTA_REDACAO" selected="True" type="Double" size="8" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings>
+            <Position x="307" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="List Box (11)">"NU_NOTA_CN","NU_NOTA_CH","NU_NOTA_LC","NU_NOTA_MT","NU_NOTA_REDACAO"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">False</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="631" y="415" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\Jhonatan\AppData\Local\Temp\Engine_1180_d4df38c994e54a4e8d5b6cb3fbf873eb_\Engine_12956_04f17dd50ce345adbc1b40b229682f59_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Perfil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Regressao_Linear_Enem</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
